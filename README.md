@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nx3f5Jww)
 # Student Templates for 2-Wordpress web service with HA (high availability) configuration
 
 This folder contains student-facing Terraform templates based on the three toy examples.
