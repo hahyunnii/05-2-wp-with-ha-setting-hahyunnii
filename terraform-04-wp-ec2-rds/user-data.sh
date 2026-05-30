@@ -15,8 +15,7 @@ dnf install -y \
   php-xml \
   php-gd \
   mariadb105 \
-  wget \
-  curl
+  wget
 
 # ─── Write EC2 health check file (proves bootstrap completed) ─────────────────
 cat > /var/www/html/health.html <<'EOF'
