@@ -48,7 +48,7 @@ resource "aws_security_group" "wordpress" {
   }
 
   ingress {
-    description = "Allow SSH for troubleshooting — narrow or remove in production"
+    description = "Allow SSH for troubleshooting - narrow or remove in production"
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
