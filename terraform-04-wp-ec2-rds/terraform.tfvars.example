@@ -1,0 +1,13 @@
+# Copy this file to terraform.tfvars and set values as needed.
+# DO NOT put db_master_password here — use the environment variable instead:
+#   export TF_VAR_db_master_password='YourLabOnlyPassword123!'
+
+aws_region        = "us-east-1"
+name_prefix       = "ccaws-tf04"
+instance_type     = "t3.micro"
+db_instance_class = "db.t3.micro"
+db_name           = "wordpress"
+db_username       = "wpadmin"
+
+# Optional: set to an existing EC2 key pair name for SSH troubleshooting
+# key_name = "my-key-pair"
